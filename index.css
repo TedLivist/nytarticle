@@ -59,7 +59,7 @@ nav span {
 }
 
 main {
-  height: 1000px;
+  height: 10000px;
   background-color: blue;
   width: 100%;
   position:relative;
@@ -90,17 +90,157 @@ main {
   border: 1px solid yellow;
   width: 200px;
   height: 215px;
-}
-
-#left {
   flex: 1
 }
+
 #center {
-  flex-basis: 600px;
   font-size: 2.5rem;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
+  flex: 1.6
 }
-#right {
+
+#header-photo {
+  width: 100%;
+  text-align: center;
+  height: 600px;
+  background-color: yellow;
+}
+
+#header-photo figcaption {
+  text-align: left;
+  width: 715px;
+  margin-left: 200px;
+  font-size: 1.035rem;
+  color: #666666;
+}
+
+figcaption span {
+  font-size: 0.93rem;
+  color: #B89688;
+}
+
+.description {
+  margin-top: 30px;
+  height: 170px;
+}
+
+.description > article {
+  flex: 1.6
+}
+
+#author {
+  font-size: 0.89rem;
+  font-family: sans-serif;
+}
+
+.author-details hr {
+  position: relative;
+  top: 30px;
+}
+
+#signup-section {
+  width: 599px;
+  background-color: yellow;
+  height: 45px;
+  position: relative;
+  top: 35px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#signup-btn {
+  float: right;
+  position: relative;
+  bottom: 2px;
+  font-size: 0.95rem;
+  flex: 0.7;
+  height: 30px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.signup-science {
+  font-family: sans-serif;
+  float: left;
+  flex: 5.3;
+}
+
+.signup-science strong {
+  font-size: 0.98rem;
+}
+
+#get-stories {
+  font-size: 0.98rem;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#article-container {
+  display: flex;
+  width: 100%;
+}
+
+.article-divs {
+  border: 1px solid red;
+}
+
+#left-div {
   flex: 1
+}
+
+#center-div {
+  flex: 1.6;
+  font-size: 1.39rem;
+}
+
+#right-div {
+  flex: 1;
+}
+
+#center-div hr {
+  width: 100px;
+  position: relative;
+  top: 15px;
+  margin-bottom: 25px;
+}
+
+#thanks {
+  width: 100%;
+  background-color: red;
+  display: grid;
+  position: relative;
+  top: 10px;
+}
+
+#thanks p {
+  margin: 0 auto;
+  font-size: 0.95rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#thanks a {
+  text-decoration: none;
+  color: #326891;
+}
+
+#theory {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: grey;
+  grid-gap: 1em;
+  padding: 0 12rem;
+}
+
+#theory > div {
+  background: #eee;
+  padding: 1em;
+}
+
+#theory > div:nth-child(odd) {
+  background: #ddd;
 }
