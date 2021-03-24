@@ -5,7 +5,7 @@ body {
 nav {
   background-color: white;
   text-align: center;
-  padding: 5px 20px 0px 20px;
+  padding: 5px 20px 0 20px;
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -41,7 +41,7 @@ nav span {
 .nav-btn {
   float: right;
   background-color: #326891;
-  color: #FFF5E3;
+  color: #fff5e3;
   font-weight: bold;
   font-size: 0.68rem;
   padding: 8px;
@@ -60,7 +60,7 @@ nav span {
 
 main {
   width: 100%;
-  position:relative;
+  position: relative;
   top: 45px;
 }
 
@@ -74,9 +74,26 @@ main {
   margin-top: 70px;
 }
 
+.author-details hr {
+  position: relative;
+  top: 30px;
+}
+
+.center-div hr {
+  width: 100px;
+  position: relative;
+  top: 15px;
+  margin-bottom: 25px;
+}
+
 #center hr {
   position: relative;
   top: 10px;
+}
+
+.editor-picks img {
+  float: left;
+  margin-right: 10px;
 }
 
 #center img {
@@ -87,14 +104,14 @@ main {
 .contents {
   width: 200px;
   height: 215px;
-  flex: 1
+  flex: 1;
 }
 
 #center {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
-  flex: 1.6
+  flex: 1.6;
 }
 
 #header-photo {
@@ -102,17 +119,22 @@ main {
   text-align: center;
 }
 
-#header-photo figcaption {
+.sub-categories a > div {
+  padding: 3px 0;
+  box-sizing: border-box;
+}
+
+#header-photo div {
   text-align: left;
   width: 715px;
   margin-left: 200px;
   font-size: 1.035rem;
-  color: #666666;
+  color: #666;
 }
 
-figcaption span {
+div span {
   font-size: 0.93rem;
-  color: #B89688;
+  color: #b89688;
 }
 
 .description {
@@ -120,17 +142,12 @@ figcaption span {
 }
 
 .description > article {
-  flex: 1.6
+  flex: 1.6;
 }
 
-#author {
+.author {
   font-size: 0.89rem;
   font-family: sans-serif;
-}
-
-.author-details hr {
-  position: relative;
-  top: 30px;
 }
 
 #signup-section {
@@ -149,7 +166,7 @@ figcaption span {
   flex: 0.7;
   height: 30px;
   font-weight: bold;
-  background-color: #FFFFFF;
+  background-color: #fff;
   color: black;
   border: 1px solid black;
   border-radius: 3px;
@@ -171,37 +188,24 @@ figcaption span {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#article-container {
+.article-container {
   display: flex;
   width: 100%;
 }
 
-#left-div {
-  flex: 1
+.left-div {
+  flex: 1;
 }
 
-#center-div {
+.center-div {
   flex: 1.6;
   font-size: 1.39rem;
 }
 
-#right-div {
+.right-div {
   flex: 1;
   display: grid;
   padding-right: 50px;
-}
-
-
-#editor-picks img {
-  float: left;
-  margin-right: 10px;
-}
-
-#center-div hr {
-  width: 100px;
-  position: relative;
-  top: 15px;
-  margin-bottom: 25px;
 }
 
 #thanks {
@@ -216,6 +220,13 @@ figcaption span {
   font-size: 0.95rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+}
+
+.sub-categories a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-family: 'Lato', sans-serif;
 }
 
 #thanks a {
@@ -240,7 +251,7 @@ figcaption span {
   position: relative;
   bottom: 35px;
   font-size: 0.92rem;
-  color: #DDA874;
+  color: #dda874;
 }
 
 #theory {
@@ -258,12 +269,12 @@ figcaption span {
   float: left;
 }
 
-#fig-text {
+.fig-text {
   font-family: 'Lato', sans-serif;
   font-size: 0.85rem;
 }
 
-#captions {
+.captions {
   font-size: 0.7rem;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -282,16 +293,16 @@ figcaption span {
   font-size: 0.95rem;
 }
 
-#stanford-professor {
+.stanford-professor {
   font-size: 1.05rem;
-  color: #D2A588;
+  color: #d2a588;
   position: relative;
   bottom: 15px;
 }
 
 #footnote {
   font-size: 0.75rem;
-  color: #D2A588;
+  color: #d2a588;
   font-family: sans-serif;
 }
 
@@ -305,7 +316,7 @@ figcaption span {
   float: left;
   padding: 9px 80px;
   font-weight: bold;
-  color: #F2FFFF;
+  color: #f2ffff;
   background-color: #326891;
   border: 1px solid #326891;
   border-radius: 3px;
@@ -336,9 +347,9 @@ figcaption span {
   margin-left: 15px;
 }
 
-#suggestion-header {
+.suggestion-header {
   float: left;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 #dont-show {
@@ -351,7 +362,7 @@ figcaption span {
   font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#newsletter-types {
+.newsletter-types {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.5em;
@@ -359,62 +370,62 @@ figcaption span {
   margin-bottom: 30px;
 }
 
-#newsletter-div{
+.newsletter-div {
   padding: 15px;
   float: left;
   border: 1px solid #eee;
   box-sizing: border-box;
 }
 
-#newsletter-image {
+.newsletter-image {
   float: left;
 }
 
-#newsletter-plus {
+.newsletter-plus {
   float: right;
 }
 
-#newsletter-caption {
+.newsletter-caption {
   font-family: 'Lato', sans-serif;
   font-size: 0.7rem;
   margin-top: 13px;
 }
 
-#newsletter-header {
+.newsletter-header {
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   font-size: 1.08rem;
   margin: 3px 0 10px 0;
 }
 
-#newsletter-text {
+.newsletter-text {
   font-size: 1.07rem;
   font-family: 'Lato', sans-serif;
   border: 0;
   height: 115px;
 }
 
-#newsletter-link {
+.newsletter-link {
   text-decoration: none;
   font-size: 0.98rem;
-  color: #32689E;
+  color: #32689e;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   position: relative;
   bottom: 0;
 }
 
-#space {
+.space {
   height: 300px;
 }
 
-#photo-tag {
+.photo-tag {
   float: right;
-  color: #D2A588;
+  color: #d2a588;
   font-size: 0.7rem;
 }
 
-#space-heading {
+.space-heading {
   font-size: 0.95rem;
   font-weight: bold;
   font-family: 'Merriweather', serif;
@@ -422,7 +433,7 @@ figcaption span {
   top: 5px;
 }
 
-#space-date {
+.space-date {
   font-size: 0.8rem;
   font-family: 'Lato', sans-serif;
   position: relative;
@@ -431,9 +442,9 @@ figcaption span {
 
 .right-suggestions {
   padding: 15px 0;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.06rem;
-  border-top: 1px solid #E2E2E2;
+  border-top: 1px solid #e2e2e2;
   box-sizing: border-box;
 }
 
@@ -449,7 +460,7 @@ figcaption span {
 }
 
 #border-div {
-  border: 1px solid #E2E2E2;
+  border: 1px solid #e2e2e2;
   width: 100%;
   margin-bottom: 2px;
 }
@@ -468,13 +479,13 @@ figcaption span {
   float: right;
   text-decoration: none;
   font-size: 0.7rem;
-  color: #56A4D7;
+  color: #56a4d7;
 }
 
-#main-categories{
+#main-categories {
   display: flex;
   padding-bottom: 10px;
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #e2e2e2;
   position: relative;
   top: 15px;
   box-sizing: border-box;
@@ -486,12 +497,12 @@ figcaption span {
 }
 
 #theme-categories div {
-  flex: 1
+  flex: 1;
 }
 
 #subscribe-aside {
   flex: 1;
-  border-left: 1px solid #E2E2E2;
+  border-left: 1px solid #e2e2e2;
   padding-left: 10px;
   box-sizing: border-box;
 }
@@ -501,18 +512,6 @@ figcaption span {
   font-size: 0.8rem;
   font-weight: bold;
   margin-bottom: 5px;
-}
-
-.sub-categories a {
-  text-decoration: none;
-  color: black;
-  font-size: 0.9rem;
-  font-family: 'Lato', sans-serif;
-}
-
-.sub-categories a > div {
-  padding: 3px 0;
-  box-sizing: border-box;
 }
 
 .more-img {
@@ -538,7 +537,7 @@ figcaption span {
 
 #footer-notes div {
   font-size: 0.75rem;
-  color: #E2E2E2;
+  color: #e2e2e2;
   margin: 5px;
   float: left;
 }
