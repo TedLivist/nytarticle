@@ -326,18 +326,130 @@ figcaption span {
 
 #suggestions {
   display: flex;
-  margin: 50px;
+  margin: 80px;
 }
 
 #suggestions article {
   background-color: red;
-  border: 1px solid blue
+  border-top: 1px solid black;
 }
 
 #newsletters {
-  flex: 3
+  flex: 4;
+  margin-right: 15px;
 }
 
 #most-popular {
-  flex: 1;
+  flex: 1.5;
+  margin-left: 15px;
+}
+
+#suggestion-header {
+  float: left;
+  font-weight: bold;  
+}
+
+#dont-show {
+  float: right;
+}
+
+.newsletter-styling {
+  font-size: 1.07rem;
+  margin: 15px 0;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#newsletter-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#newsletter-div{
+  background: #eee;
+  padding: 15px;
+  float: left;
+  border: 1px solid #eee;
+}
+
+#newsletter-image {
+  float: left;
+}
+
+#newsletter-plus {
+  float: right;
+}
+
+#newsletter-caption {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  margin-top: 13px;
+}
+
+#newsletter-header {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.08rem;
+  margin: 3px 0 10px 0;
+}
+
+#newsletter-text {
+  font-size: 1.07rem;
+  font-family: 'Lato', sans-serif;
+  border: 0;
+  height: 115px;
+}
+
+#newsletter-link {
+  text-decoration: none;
+  font-size: 0.98rem;
+  color: #32689E;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+}
+
+#space {
+  height: 300px;
+}
+
+#photo-tag {
+  float: right;
+  color: #D2A588;
+  font-size: 0.7rem;
+}
+
+#space-heading {
+  font-size: 0.95rem;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  position: relative;
+  top: 5px;
+}
+
+#space-date {
+  font-size: 0.8rem;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+.right-suggestions {
+  padding: 15px 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.06rem;
+  border-top: 1px solid #E2E2E2;
+}
+
+.right-links {
+  text-decoration: none;
+  color: black;
+}
+
+#categories {
+  display: flex;
+  margin: 80px;
 }

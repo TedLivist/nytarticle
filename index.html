@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/1ebe4d9033.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
   <title>Document</title>
 </head>
@@ -278,12 +280,254 @@
 
     <section id="suggestions">
       <article id="newsletters">
-        Mr Carter
+        <div>
+          <span id="suggestion-header" class="newsletter-styling">Suggested newsletters for you</span>
+          <span id="dont-show" class="newsletter-styling">Don't show me this again</span>
+        </div>
+
+        <section id="newsletter-types">
+          <div id="newsletter-div">
+            <div>
+              <img id="newsletter-image" src="images/the-morning.jpg" alt="the-morning">
+              <img id="newsletter-plus" src="images/plus-sign.jpg" alt="plus-sign">
+              <div id="clear"></div>
+            </div>
+            <figcaption id="newsletter-caption">
+              DAILY
+            </figcaption>
+            <header id="newsletter-header">
+              The Morning
+            </header>
+            <article id="newsletter-text">
+              Make sense of the day's news and ideas. David Leonhardt and Times journalists guide you through what's happening - and why it matters
+            </article>
+            <a id="newsletter-link" href="#">See the latest</a>
+          </div>
+          
+          <div id="newsletter-div">
+            <div>
+              <img id="newsletter-image" src="images/void.jpg" alt="the-morning">
+              <img id="newsletter-plus" src="images/plus-sign.jpg" alt="plus-sign">
+              <div id="clear"></div>
+            </div>
+            <figcaption id="newsletter-caption">
+              AS NEEDED
+            </figcaption>
+            <header id="newsletter-header">
+              Breaking News
+            </header>
+            <article id="newsletter-text">
+              Alerts when important new breaks around the world.
+            </article>
+            <a id="newsletter-link" href="#">See the latest</a>
+          </div>
+
+          <div id="newsletter-div">
+            <div>
+              <img id="newsletter-image" src="images/weekly.jpg" alt="the-morning">
+              <img id="newsletter-plus" src="images/plus-sign.jpg" alt="plus-sign">
+              <div id="clear"></div>
+            </div>
+            <figcaption id="newsletter-caption">
+              WEEKLY
+            </figcaption>
+            <header id="newsletter-header">
+              At Home
+            </header>
+            <article id="newsletter-text">
+              Our best suggestions for how to live a full and cultured life during the pandemic, at home.
+            </article>
+            <a id="newsletter-link" href="#">See the latest</a>
+          </div>
+        </section>
+
+        <article>
+          <div>
+            <span id="suggestion-header" class="newsletter-styling">More in Space and Astronomy</span>
+          </div>
+
+          <section id="newsletter-types">
+            <div id="space">
+              <img src="images/nasa.jpg" alt="nasa">
+              <div id="photo-tag">
+                Jeff J Mitchell/Getty Images
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                Biden Nominates Former Florida Senator to Lead NASA
+              </div>
+              <div id="space-date">March 19</div>
+            </div>
+            
+            <div id="space">
+              <img src="images/mars.jpg" alt="mars">
+              <div id="clear"></div>
+              <div id="space-heading">
+                The Water on Mars Vanished. This Might Be Where It Went.
+              </div>
+              <div id="space-date">March 23</div>
+            </div>
+
+            <div id="space">
+              <img src="images/8-min.jpg" alt="8-min">
+              <div id="photo-tag">
+                NASA TV
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                8 Minutes of Fire: NASA's 2nd Test of Giant New Moon Rocket Is a Success
+              </div>
+              <div id="space-date">March 19</div>
+            </div>
+
+            <div id="space">
+              <img src="images/rocket.jpg" alt="rocket">
+              <div id="photo-tag">
+                Tyler Martin/NASA
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                NASA's Last Rocket
+              </div>
+              <div id="space-date">March 23</div>
+            </div>
+
+            <div id="space">
+              <img src="images/china-russia.jpg" alt="china-russia">
+              <div id="photo-tag">
+                Mark Schiefelbein/Associated Press
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                China and Russia Agree to Explore the Moon Together
+              </div>
+              <div id="space-date">March 10</div>
+            </div>
+
+            <div id="space">
+              <img src="images/spacex.jpg" alt="spacex-rocket">
+              <div id="photo-tag">
+                SpaceX, via Associated Press
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                SpaceX Mars Rocket Prototype Explodes, but This Time It Lands First 
+              </div>
+              <div id="space-date">March 4</div>
+            </div>
+          </section>
+        </article>
+
+        <article>
+          <div>
+            <span id="suggestion-header" class="newsletter-styling">Editor's Pick</span>
+          </div>
+
+          <section id="newsletter-types">
+            <div id="space">
+              <img src="images/hawaii.jpg" alt="hawaii">
+              <div id="photo-tag">
+                Gabe Boarder
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                After 19 Years in Hawaii, They Were Missing Something: Winter
+              </div>
+              <div id="space-date">March 23</div>
+            </div>
+
+          
+            <div id="space">
+              <img src="images/smell.jpg" alt="smell">
+              <div id="photo-tag">
+                Caroline Tompkins for the New York Times
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                If Everything Smells Bad, You're Not Alone
+              </div>
+              <div id="space-date">March 22</div>
+            </div>
+          
+          
+            <div id="space">
+              <img src="images/diy.jpg" alt="diy">
+              <div id="photo-tag">
+                Tony Cenicola/The New York Times
+              </div>
+              <div id="clear"></div>
+              <div id="space-heading">
+                The D.I.Y. Developers
+              </div>
+              <div id="space-date">March 19</div>
+            </div>
+          </section>
+          
+        </article>
       </article>
 
       <article id="most-popular">
-        Jay-Z
+          <div>
+            <span id="suggestion-header" class="newsletter-styling">Most Popular</span>
+          </div>
+          <div id="clear"></div>
+          <a class="right-links" href="#">
+            <section class="right-suggestions">
+              Sharon Stone Is Telling Her Side of the Story
+            </section>
+          </a>
+          <a class="right-links" href="#">
+            <section class="right-suggestions">
+              'I Cry on Tuesdays and Fridays'
+            </section>
+          </a>
+          <a class="right-links" href="#">
+          <section class="right-suggestions">
+            Too Much High-Intensity Exercise May Be Bad for Your Health
+          </section>
+        </a>
+        <a class="right-links" href="#">
+          <section class="right-suggestions">
+            For Rohingya Survivors, Art Bears Witness
+          </section>
+        </a>
+        <a class="right-links" href="#">
+          <section class="right-suggestions">
+            Evils Lurking Beneath a City's Centuries-Old Canals
+          </section>
+        </a>
+        <a class="right-links" href="#">
+          <section class="right-suggestions">
+            How a Sham Candidate Helped Flip a Florida Election
+          </section>
+        </a>
+        <a class="right-links" href="#">
+          <section class="right-suggestions">
+            Stephen Colbert Breaks It Down for Spring Breakers
+          </section>
+        </a>
+        <a class="right-links" href="#">
+          <section class="right-suggestions">
+            Why Finance Gurus Switched Their Bait From Millions to Thousands of Dollars
+          </section>
+        </a>
+        <a class="right-links" href="#">
+          <section class="right-suggestions">
+            Is Coffee Good for Us? Maybe Machine Learning Can Help Figure It Out.
+          </section>
+        </a>
+        <a class="right-links" href="#">
+          <section class="right-suggestions">
+            What Is Amazon Doing to Our Country?
+          </section>
+        </a>
       </article>
+    </section>
+
+    <section id="categories">
+      <section>
+        
+      </section>
     </section>
   </main>
 </body>
