@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/TedLivist/nytarticle/new-york-article-branch/)
+[Live Demo](https://tedlivist.github.io/nytarticle/)
 
 ## Getting Started
 
