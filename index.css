@@ -187,10 +187,14 @@ figcaption span {
 
 #right-div {
   flex: 1;
+  display: grid;
+  padding-right: 50px;
 }
 
-#right-div section {
 
+#editor-picks img {
+  float: left;
+  margin-right: 10px;
 }
 
 #center-div hr {
@@ -555,8 +559,4 @@ footer {
 footer span {
   float: right;
   font-weight: bold;
-}
-
-#editor-picks {
-  font-size: 3rem;
 }
