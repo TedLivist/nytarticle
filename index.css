@@ -296,3 +296,48 @@ figcaption span {
   position: relative;
   bottom: 15px;
 }
+
+#footnote {
+  font-size: 0.75rem;
+  color: #D2A588;
+  font-family: sans-serif;
+}
+
+#comments-share {
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+#comments-share button {
+  float: left;
+  padding: 9px 80px;
+  font-weight: bold;
+  color: #F2FFFF;
+  background-color: #326891;
+  border: 1px solid #326891;
+  border-radius: 3px;
+}
+
+#comments-share img {
+  float: right;
+  margin-left: 10px;
+}
+
+#suggestions {
+  display: flex;
+  margin: 50px;
+}
+
+#suggestions article {
+  background-color: red;
+  border: 1px solid blue
+}
+
+#newsletters {
+  flex: 3
+}
+
+#most-popular {
+  flex: 1;
+}
