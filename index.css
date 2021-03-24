@@ -189,6 +189,10 @@ figcaption span {
   flex: 1;
 }
 
+#right-div section {
+
+}
+
 #center-div hr {
   width: 100px;
   position: relative;
@@ -436,6 +440,8 @@ figcaption span {
 
 #categories {
   margin: 0 80px;
+  position: relative;
+  bottom: 120px;
 }
 
 #border-div {
@@ -522,7 +528,6 @@ figcaption span {
 #footer-notes {
   display: inline-block;
   margin-top: 20px;
-  margin-bottom: 30px;
   padding: 0 40px;
   box-sizing: border-box;
 }
@@ -532,7 +537,6 @@ figcaption span {
   color: #E2E2E2;
   margin: 5px;
   float: left;
-  margin-bottom: 40px;
 }
 
 footer {
@@ -551,4 +555,8 @@ footer {
 footer span {
   float: right;
   font-weight: bold;
+}
+
+#editor-picks {
+  font-size: 3rem;
 }
