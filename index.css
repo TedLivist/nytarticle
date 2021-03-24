@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-  background-color: red;
+  background-color: white;
   text-align: center;
   padding: 5px 20px 0px 20px;
   box-sizing: border-box;
@@ -11,7 +11,6 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1;
-  opacity: 0.5;
   height: 45px;
 }
 
@@ -48,6 +47,7 @@ nav span {
   padding: 8px;
   border: 1px solid #326891;
   border-radius: 3px;
+  box-sizing: border-box;
 }
 
 #sub-btn {
@@ -59,8 +59,6 @@ nav span {
 }
 
 main {
-  height: 10000px;
-  background-color: blue;
   width: 100%;
   position:relative;
   top: 45px;
@@ -87,7 +85,6 @@ main {
 }
 
 .contents {
-  border: 1px solid yellow;
   width: 200px;
   height: 215px;
   flex: 1
@@ -103,8 +100,6 @@ main {
 #header-photo {
   width: 100%;
   text-align: center;
-  height: 600px;
-  background-color: yellow;
 }
 
 #header-photo figcaption {
@@ -122,7 +117,6 @@ figcaption span {
 
 .description {
   margin-top: 30px;
-  height: 170px;
 }
 
 .description > article {
@@ -141,8 +135,6 @@ figcaption span {
 
 #signup-section {
   width: 599px;
-  background-color: yellow;
-  height: 45px;
   position: relative;
   top: 35px;
   box-sizing: border-box;
@@ -184,10 +176,6 @@ figcaption span {
   width: 100%;
 }
 
-.article-divs {
-  border: 1px solid red;
-}
-
 #left-div {
   flex: 1
 }
@@ -210,7 +198,6 @@ figcaption span {
 
 #thanks {
   width: 100%;
-  background-color: red;
   display: grid;
   position: relative;
   top: 10px;
@@ -234,6 +221,7 @@ figcaption span {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 0;
   position: relative;
+  box-sizing: border-box;
 }
 
 #theory-header h4 {
@@ -254,16 +242,12 @@ figcaption span {
   padding: 0 12em;
   position: relative;
   bottom: 35px;
+  box-sizing: border-box;
 }
 
 #theory > div {
-  background: #eee;
   padding: 0;
   float: left;
-}
-
-#theory > div:nth-child(odd) {
-  background: #ddd;
 }
 
 #fig-text {
@@ -317,6 +301,7 @@ figcaption span {
   background-color: #326891;
   border: 1px solid #326891;
   border-radius: 3px;
+  box-sizing: border-box;
 }
 
 #comments-share img {
@@ -330,7 +315,6 @@ figcaption span {
 }
 
 #suggestions article {
-  background-color: red;
   border-top: 1px solid black;
 }
 
@@ -368,10 +352,10 @@ figcaption span {
 }
 
 #newsletter-div{
-  background: #eee;
   padding: 15px;
   float: left;
   border: 1px solid #eee;
+  box-sizing: border-box;
 }
 
 #newsletter-image {
@@ -442,6 +426,7 @@ figcaption span {
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 1.06rem;
   border-top: 1px solid #E2E2E2;
+  box-sizing: border-box;
 }
 
 .right-links {
@@ -450,6 +435,120 @@ figcaption span {
 }
 
 #categories {
+  margin: 0 80px;
+}
+
+#border-div {
+  border: 1px solid #E2E2E2;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+#nyt-label {
+  width: 100%;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+#nyt-label img {
+  float: left;
+}
+
+#nyt-label a {
+  float: right;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #56A4D7;
+}
+
+#main-categories{
   display: flex;
-  margin: 80px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E2E2E2;
+  position: relative;
+  top: 15px;
+  box-sizing: border-box;
+}
+
+#theme-categories {
+  flex: 5;
+  display: flex;
+}
+
+#theme-categories div {
+  flex: 1
+}
+
+#subscribe-aside {
+  flex: 1;
+  border-left: 1px solid #E2E2E2;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.theme-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sub-categories a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.sub-categories a > div {
+  padding: 3px 0;
+  box-sizing: border-box;
+}
+
+.more-img {
+  float: left;
+  margin-right: 10px;
+}
+
+.more-text {
+  position: relative;
+  bottom: 5px;
+}
+
+.subscribe-text {
+  font-size: 0.75rem;
+}
+
+#footer-notes {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+#footer-notes div {
+  font-size: 0.75rem;
+  color: #E2E2E2;
+  margin: 5px;
+  float: left;
+  margin-bottom: 40px;
+}
+
+footer {
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 80px 0 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: 1px solid black;
+}
+
+footer span {
+  float: right;
+  font-weight: bold;
 }
