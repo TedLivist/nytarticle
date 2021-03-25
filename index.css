@@ -1,0 +1,578 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+  text-align: center;
+  padding: 5px 20px 0 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 45px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+nav i {
+  float: left;
+  position: relative;
+  top: 8px;
+  margin-right: 10px;
+}
+
+.fa-search {
+  margin-left: 20px;
+}
+
+#space-text {
+  margin-left: 18px;
+  position: relative;
+  top: 8px;
+}
+
+nav span {
+  float: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.nav-btn {
+  float: right;
+  background-color: #326891;
+  color: white;
+  font-weight: bold;
+  font-size: 0.68rem;
+  padding: 8px;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#sub-btn {
+  margin-right: 8px;
+}
+
+.clear {
+  clear: both;
+}
+
+main {
+  width: 100%;
+  position: relative;
+  top: 45px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-margin {
+  margin-top: 70px;
+}
+
+.author-details hr {
+  position: relative;
+  top: 30px;
+}
+
+.center-div hr {
+  width: 100px;
+  position: relative;
+  top: 15px;
+  margin-bottom: 25px;
+}
+
+#center hr {
+  position: relative;
+  top: 10px;
+}
+
+.editor-picks {
+  width: 250px;
+  padding-top: 15px;
+}
+
+#editor-header {
+  font-weight: bold;
+}
+
+.editor-picks img {
+  float: left;
+  margin-right: 10px;
+}
+
+#center img {
+  position: relative;
+  top: 8px;
+}
+
+.contents {
+  width: 200px;
+  height: 215px;
+  flex: 1;
+}
+
+#center {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  flex: 1.6;
+}
+
+#header-photo {
+  width: 100%;
+  text-align: center;
+}
+
+.sub-categories a > div {
+  padding: 3px 0;
+  box-sizing: border-box;
+}
+
+#header-photo div {
+  text-align: left;
+  width: 715px;
+  margin-left: 200px;
+  font-size: 1.035rem;
+  color: #666;
+}
+
+div span {
+  font-size: 0.93rem;
+  color: grey;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+.description > article {
+  flex: 1.6;
+}
+
+.author {
+  font-size: 0.89rem;
+  font-family: sans-serif;
+}
+
+#signup-section {
+  width: 599px;
+  position: relative;
+  top: 35px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#signup-btn {
+  float: right;
+  position: relative;
+  bottom: 2px;
+  font-size: 0.95rem;
+  flex: 0.7;
+  height: 30px;
+  font-weight: bold;
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.signup-science {
+  font-family: sans-serif;
+  float: left;
+  flex: 5.3;
+}
+
+.signup-science strong {
+  font-size: 0.98rem;
+}
+
+#get-stories {
+  font-size: 0.98rem;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-div {
+  flex: 1;
+}
+
+.center-div {
+  flex: 1.6;
+  font-size: 19.5px;
+  line-height: 25px;
+}
+
+#right-session {
+  padding: 50px;
+  position: relative;
+  top: 750px;
+}
+
+.right-div {
+  flex: 1;
+  display: grid;
+}
+
+#thanks {
+  width: 100%;
+  display: grid;
+  position: relative;
+  top: 10px;
+}
+
+#thanks p {
+  margin: 0 auto;
+  font-size: 0.95rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.sub-categories a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-family: 'Lato', sans-serif;
+}
+
+#thanks a {
+  text-decoration: none;
+  color: #326891;
+}
+
+#theory-header {
+  display: grid;
+  padding: 0 12em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#theory-header h4 {
+  font-size: 1.1rem;
+}
+
+#theory-header p {
+  position: relative;
+  bottom: 35px;
+  font-size: 0.92rem;
+  color: black;
+}
+
+#theory {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  padding: 0 12em;
+  position: relative;
+  bottom: 35px;
+  box-sizing: border-box;
+}
+
+#theory > div {
+  padding: 0;
+  float: left;
+}
+
+.fig-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+}
+
+.captions {
+  font-size: 0.7rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+#larry-hr {
+  width: 55px;
+  float: left;
+  margin-left: 12em;
+}
+
+#larry-jonathan {
+  margin-left: 12.5em;
+  font-family: sans-serif;
+  font-size: 0.95rem;
+}
+
+.stanford-professor {
+  font-size: 1.05rem;
+  color: grey;
+  position: relative;
+  bottom: 15px;
+}
+
+#footnote {
+  font-size: 0.75rem;
+  color: grey;
+  font-family: sans-serif;
+}
+
+#comments-share {
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+#comments-share button {
+  float: left;
+  padding: 9px 80px;
+  font-weight: bold;
+  color: #f2ffff;
+  background-color: #326891;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#comments-share img {
+  float: right;
+  margin-left: 10px;
+}
+
+#suggestions {
+  display: flex;
+  margin: 80px;
+}
+
+#suggestions article {
+  border-top: 1px solid black;
+}
+
+#newsletters {
+  flex: 4;
+  margin-right: 15px;
+}
+
+#most-popular {
+  flex: 1.5;
+  margin-left: 15px;
+}
+
+.suggestion-header {
+  float: left;
+  font-weight: bold;
+  color: black;
+}
+
+#dont-show {
+  float: right;
+  color: black;
+}
+
+.newsletter-styling {
+  font-size: 1.07rem;
+  margin: 15px 0;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.newsletter-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.newsletter-div {
+  padding: 15px;
+  float: left;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.newsletter-image {
+  float: left;
+}
+
+.newsletter-plus {
+  float: right;
+}
+
+.newsletter-caption {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  margin-top: 13px;
+}
+
+.newsletter-header {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.08rem;
+  margin: 3px 0 10px 0;
+}
+
+.newsletter-text {
+  font-size: 1.02rem;
+  font-family: 'Lato', sans-serif;
+  border: 0;
+  height: 115px;
+}
+
+.newsletter-link {
+  text-decoration: none;
+  font-size: 0.98rem;
+  color: #32689e;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+}
+
+.space {
+  height: 300px;
+}
+
+.photo-tag {
+  float: right;
+  color: grey;
+  font-size: 0.7rem;
+}
+
+.space-heading {
+  font-size: 0.95rem;
+  font-family: 'Merriweather', serif;
+  position: relative;
+  top: 5px;
+}
+
+.space-date {
+  font-size: 0.8rem;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+.right-suggestions {
+  padding: 15px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.06rem;
+  border-top: 1px solid #e2e2e2;
+  box-sizing: border-box;
+}
+
+.right-links {
+  text-decoration: none;
+  color: black;
+}
+
+#categories {
+  margin: 0 80px;
+  position: relative;
+  bottom: 120px;
+}
+
+#border-div {
+  border: 1px solid #e2e2e2;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+#nyt-label {
+  width: 100%;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+#nyt-label img {
+  float: left;
+}
+
+#nyt-label a {
+  float: right;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #56a4d7;
+}
+
+#main-categories {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  position: relative;
+  top: 15px;
+  box-sizing: border-box;
+}
+
+#theme-categories {
+  flex: 5;
+  display: flex;
+}
+
+#theme-categories div {
+  flex: 1;
+}
+
+#subscribe-aside {
+  flex: 1;
+  border-left: 1px solid #e2e2e2;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.theme-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.more-img {
+  float: left;
+  margin-right: 10px;
+}
+
+.more-text {
+  position: relative;
+  bottom: 5px;
+}
+
+.subscribe-text {
+  font-size: 0.75rem;
+}
+
+#footer-notes {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+#footer-notes div {
+  font-size: 0.75rem;
+  color: black;
+  margin: 5px;
+  float: left;
+}
+
+footer {
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 80px 0 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: 1px solid black;
+}
+
+footer span {
+  float: right;
+  font-weight: bold;
+}
