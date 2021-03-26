@@ -129,6 +129,12 @@ main {
   text-align: center;
 }
 
+form > div {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
 .sub-categories a > div {
   padding: 3px 0;
   box-sizing: border-box;
@@ -231,6 +237,13 @@ div span {
   top: 10px;
 }
 
+form p {
+  margin: 10px 0 5px 0;
+  font-size: 1.05rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
 #thanks p {
   margin: 0 auto;
   font-size: 0.95rem;
@@ -329,7 +342,7 @@ div span {
 }
 
 form {
-  background-color: #EEEEEE;
+  background-color: #eee;
   padding: 10px 10px 10px 15px;
   width: 500px;
   margin: 0 auto;
@@ -344,13 +357,6 @@ form {
   font-family: 'Lato', sans-serif;
 }
 
-form p {
-  margin: 10px 0 5px 0;
-  font-size: 1.05rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-}
-
 form input {
   height: 25px;
   width: 30.5rem;
@@ -361,7 +367,7 @@ form input {
 form textarea {
   margin: 30px 0 20px 0;
   width: 30.5rem;
-  font-family: 'Lato', san-serif;
+  font-family: 'Lato', 'Times New Roman', Times, serif;
   font-size: 18px;
 }
 
@@ -379,12 +385,6 @@ form select {
   margin-bottom: 25px;
 }
 
-form > div {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-
 form button {
   background-color: #326891;
   width: 100px;
@@ -400,8 +400,6 @@ form button {
 .form-items-border-radius {
   border-radius: 3px;
 }
-
-
 
 #comments-share {
   width: 100%;
