@@ -322,6 +322,87 @@ div span {
   font-family: sans-serif;
 }
 
+#form-section {
+  width: 100%;
+  position: relative;
+  margin: 20px 0;
+}
+
+form {
+  background-color: #EEEEEE;
+  padding: 10px 10px 10px 15px;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid grey;
+}
+
+#form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+form p {
+  margin: 10px 0 5px 0;
+  font-size: 1.05rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+form input {
+  height: 25px;
+  width: 30.5rem;
+  margin-bottom: 15px;
+  border: 1px solid grey;
+}
+
+form textarea {
+  margin: 30px 0 20px 0;
+  width: 30.5rem;
+  font-family: 'Lato', san-serif;
+  font-size: 18px;
+}
+
+form select {
+  width: 30.7rem;
+  height: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#newsletter-sub {
+  position: relative;
+  right: 237px;
+  margin-bottom: 25px;
+}
+
+form > div {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+form button {
+  background-color: #326891;
+  width: 100px;
+  padding: 7px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.05rem;
+  border: 1px solid #56a4d7;
+  color: white;
+  font-weight: bold;
+}
+
+.form-items-border-radius {
+  border-radius: 3px;
+}
+
+
+
 #comments-share {
   width: 100%;
   position: relative;

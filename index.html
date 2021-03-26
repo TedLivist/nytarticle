@@ -234,6 +234,37 @@
         <section id="footnote">
           A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe
         </section>
+
+        <section id="form-section">
+          <form class="form-items-border-radius">
+            <p id="form-title">ADD COMMENT</p>
+
+            <p><label for="username">Enter your name</label></p>
+            <input type="text" id="username" class="form-items-border-radius" required maxlength="20">
+
+            <p><label for="email">Enter your email</label></p>
+            <input type="email" id="email" class="form-items-border-radius" required maxlength="20">
+
+            <textarea id="comment-textarea" rows="7" maxlength="250" placeholder="Type your comment here…" class="form-items-border-radius"></textarea>
+
+            <p><label for="question">What is your overall opinion about this article?</label></p>
+            <select name="question" id="question" class="form-items-border-radius">
+              <option value="positive">Positive</option>
+              <option value="neutral">Neutral</option>
+              <option value="negative">Negative</option>
+            </select>
+
+            <p><label for="newsletter-sub">I want to subscribe to the newsletter</label></p>
+            <input id="newsletter-sub" class="form-items-border-radius" type="checkbox">
+
+            <div>
+              <button type="submit" id="submit-btn" class="form-items-border-radius">SEND</button>
+            </div>
+
+
+          </form>
+        </section>
+
         <section id="comments-share">
           <button type="button">READ 615 COMMENTS</button>
 
@@ -243,6 +274,7 @@
           <img src="images/whatsapp.jpg" alt="whatsapp-icon">
           <img src="images/fb.jpg" alt="facebook-icon">
         </section>
+
       </article>
       <aside class="right-div article-divs"></aside>
     </section>
